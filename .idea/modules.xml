@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Fitgympro/Fitgympro.iml" filepath="$PROJECT_DIR$/Fitgympro/Fitgympro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Frutas/Frutas.iml" filepath="$PROJECT_DIR$/Frutas/Frutas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Java_ejercicios.iml" filepath="$PROJECT_DIR$/.idea/Java_ejercicios.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MiniTienda_POO/MiniTienda_POO.iml" filepath="$PROJECT_DIR$/MiniTienda_POO/MiniTienda_POO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MiniTienda_Poo/MiniTienda_Poo.iml" filepath="$PROJECT_DIR$/MiniTienda_Poo/MiniTienda_Poo.iml" />
+    </modules>
+  </component>
+</project>
