@@ -11,6 +11,10 @@ public class UIHelper {
         JOptionPane.showMessageDialog(null, message);
     }
 
+    public static void showError(String message, String error){
+        JOptionPane.showMessageDialog(null, message, error, JOptionPane.ERROR_MESSAGE);
+    }
+
     public static int confirm(String title, Object[] fields) {
         return JOptionPane.showConfirmDialog(
                 null, fields, title, JOptionPane.OK_CANCEL_OPTION

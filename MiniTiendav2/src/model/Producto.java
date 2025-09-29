@@ -32,4 +32,8 @@ public class Producto {
     public int getStock() {
         return stock;
     }
+
+    public String getInfo(){
+        return getId() + " Producto: "+getNombre()+" - Precio: "+getPrecio()+" - Stock: "+getStock()+"\n";
+    }
 }

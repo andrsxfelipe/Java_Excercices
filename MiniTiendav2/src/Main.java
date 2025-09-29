@@ -12,22 +12,23 @@ public class Main {
                     ProductService.addProduct();
                 }
                 case 1 -> {
-
+                    ProductService.toList();
                 }
                 case 2 -> {
-
+                    ProductService.updatePrice();
                 }
                 case 3 -> {
-
+                    ProductService.updateStock();
                 }
                 case 4 -> {
-
+                    ProductService.delete();
                 }
                 case 5 -> {
-
+                    ProductService.searchProduct();
                 }
-                case 6 -> {
-
+                default -> {
+                    UIHelper.show("Gracias por usar el servicio!");
+                    exit = true;
                 }
             }
         }
