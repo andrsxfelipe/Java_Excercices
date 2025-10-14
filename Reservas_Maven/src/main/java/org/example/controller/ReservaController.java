@@ -1,16 +1,14 @@
-package controller;
+package org.example.controller;
 // Models
-import dao.ReservaDAO;
-import domain.Reserva;
-import domain.Sala;
-// Exceptions
-import exception.*;
-// Service
-import service.ReservaService;
-// Utils
-import utils.InputValidator;
-import utils.UIHelper;
-// General
+
+import org.example.dao.ReservaDAO;
+import org.example.domain.Reserva;
+import org.example.domain.Sala;
+import org.example.exception.*;
+import org.example.service.ReservaService;
+import org.example.utils.InputValidator;
+import org.example.utils.UIHelper;
+
 import java.time.LocalDate;
 import java.time.LocalTime;
 import java.util.Date;

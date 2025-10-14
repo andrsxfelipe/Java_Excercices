@@ -1,7 +1,7 @@
-package view;
+package org.example.view;
 
-import controller.ReservaController;
-import utils.UIHelper;
+import org.example.controller.ReservaController;
+import org.example.utils.UIHelper;
 
 import javax.swing.*;
 import java.util.Calendar;

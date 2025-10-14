@@ -1,12 +1,15 @@
-package dao;
+package org.example.dao;
 
-import config.ConfigBD;
-import domain.Reserva;
-import domain.Sala;
-import exception.DataAccessException;
-import exception.ReservaNoEncontradaException;
+import org.example.config.ConfigBD;
+import org.example.domain.Reserva;
+import org.example.domain.Sala;
+import org.example.exception.DataAccessException;
+import org.example.exception.ReservaNoEncontradaException;
 
-import java.sql.*;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
 import java.time.LocalDate;
 import java.time.LocalTime;
 import java.util.ArrayList;

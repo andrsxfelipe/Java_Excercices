@@ -1,10 +1,10 @@
-package service;
+package org.example.service;
 
-import config.SystemConfig;
-import dao.ReservaDAO;
-import domain.Reserva;
-import exception.*;
-import utils.FormatHelper;
+import org.example.config.SystemConfig;
+import org.example.dao.ReservaDAO;
+import org.example.domain.Reserva;
+import org.example.exception.*;
+import org.example.utils.FormatHelper;
 
 import java.time.Duration;
 import java.time.LocalDate;

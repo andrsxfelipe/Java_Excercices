@@ -1,5 +1,7 @@
-import utils.UIHelper;
-import view.ReservaView;
+package org.example;
+
+import org.example.utils.UIHelper;
+import org.example.view.ReservaView;
 
 public class Main {
     public static void main(String[] args) {
